@@ -1,2 +1,2 @@
 # prepinsta
-Full Stack Development course
+Full Stack Development Course
