@@ -1,0 +1,198 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header .user {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header .imgdiv img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        header h3.name,
+        header p.post {
+            margin: 10px 0 0 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .home {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .home h1 {
+            margin: 20px 0;
+            font-size: 48px;
+        }
+
+        .home h1 span {
+            color: #007bff;
+        }
+
+        .home p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+
+        .home .btn {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .about,
+        .education,
+        .portfolio,
+        .contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about .heading,
+        .education .heading,
+        .portfolio .heading,
+        .contact .heading {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .about .row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .about .info,
+        .about .counter {
+            flex: 1;
+            margin: 20px;
+            max-width: 500px;
+        }
+
+        .about .info h3 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .about .counter .box {
+            margin: 10px 0;
+            padding: 10px;
+            background: #007bff;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .about .counter .box span,
+        .about .counter .box h3 {
+            margin: 0;
+        }
+
+        .education .box-container,
+        .portfolio .box-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .education .box,
+        .portfolio .box {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .education .box span,
+        .education .box h3,
+        .education .box p {
+            margin: 10px 0;
+        }
+
+        .portfolio .projectinfo img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .portfolio .projectinfo h3,
+        .portfolio .projectinfo p {
+            margin: 10px 0;
+        }
+
+        .portfolio .projectinfo .btn1 {
+            margin: 5px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact .input-box {
+            margin: 10px 0;
+        }
+
+        .contact .input-box input,
+        .contact .input-box textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact .btn {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
