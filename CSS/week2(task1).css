@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10.5vh;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(39, 39, 39, 0.4), transparent);
+    z-index: 100;
+    background-color: black;
+}
+
+.nav-logo {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    display: flex;
+    list-style-type: none;
+    padding-right: 45px;
+}
+
+.nav-menu ul li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-menu ul li a:hover,
+:active {
+    display: flex;
+    color: gray;
+}
+
+.nav-menu ul li .link {
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 16px;
+    margin: 0 25px;
+}
+
+.nav-button .btn {
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#registerBtn {
+    margin-left: 15px;
+}
+
+.btn.white-btn {
+    background: white;
+}
+
+.btn.btn.white-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.nav-menu-btn {
+    display: none;
+}
+
+.head-wrap {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: linear-gradient(rgba(39, 39, 39, 0.4), transparent), url("https://cdn.pixabay.com/photo/2022/02/26/01/23/study-7035108_1280.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+
+.head-details h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.head-details p {
+    text-align: center;
+    margin: 25px;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.section-wrap {
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70vh;
+    background: linear-gradient(rgba(27, 27, 27), transparent);
+}
+
+#feature {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature-box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box img {
+    max-width: 150px;
+}
+
+.feature-box h2 {
+    margin: 20px 0 10px;
+}
+
+.feature-box p {
+    color: #666;
+}
+
+.feature-button {
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: black;
+    color: white;
+    margin: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.feature-button:hover,
+:active {
+    background-color: #666;
+}
+
+.testimonial-wrap {
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 65vh;
+    background: linear-gradient(rgba(27, 27, 27), transparent);
+}
+
+#testimonials {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    /* margin: 20px; */
+    text-align: center;
+}
+
+.testimonial-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px auto;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media(max-width:768px){
+    header{
+        height: 40vh;
+    }
+    #feature{
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-box{
+        width: 80%;
+    }
+    .testimonial-box{
+        width: 80%;
+    }
+}
